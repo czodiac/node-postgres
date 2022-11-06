@@ -1,7 +1,7 @@
 {
   "name": "node-postgres",
   "version": "1.0.0",
-  "description": "Lean how NodeJS and Express can interact with PostgreSQL",
+  "description": "Simple NodeJS + Express interaction with PostgreSQL",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
