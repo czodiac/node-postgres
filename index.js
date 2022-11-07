@@ -34,6 +34,16 @@ app.post('/merchants', (req, res) => {
         })
 })
 
+app.put('/merchants/:id', (req, res) => {
+    merchant_model.updateMerchant(req.params.id, req.body)
+        .then(response => {
+            res.status(200).send(response);
+        })
+        .catch(error => {
+            res.status(500).send(error);
+        })
+})
+
 app.delete('/merchants/:id', (req, res) => {
     merchant_model.deleteMerchant(req.params.id)
         .then(response => {
