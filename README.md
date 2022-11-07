@@ -1,2 +1,3 @@
-# Node-PostgresQL
-Simple NodeJS + Express interaction with PostgreSQL
+# Node.js + Express + PostgresQL
+
+Simple NodeJS + Express CRUD interaction with PostgreSQL
